@@ -1,0 +1,65 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Add New Animal</h3>
+  </div>
+  <div class="panel-body">
+      <div>
+         <div>
+            <div>
+              <label>Specie:</label>
+              <br>
+              <input #Specie>
+            </div>
+
+            <div>
+              <label>Name:</label>
+              <br>
+              <input #Name>
+            </div>
+
+            <div>
+              <label>Age:</label>
+              <br>
+              <input #Age>
+            </div>
+
+            <div>
+              <label>Diet:</label>
+              <br>
+              <textarea #Diet></textarea>
+            </div>
+
+            <div>
+              <label>Location:</label>
+              <br>
+              <input #Location>
+            </div>
+
+            <div>
+              <label>Caretakers:</label>
+              <br>
+              <textarea #Caretakers></textarea>
+            </div>
+
+            <div>
+              <label>Sex:</label>
+              <br>
+              <input #Sex>
+            </div>
+
+            <div>
+              <label>Likes:</label>
+              <br>
+              <textarea #Likes></textarea>
+            </div>
+
+            <div>
+              <label>Dislikes:</label>
+              <br>
+              <textarea #Dislikes></textarea>
+            </div>
+            <button (click)="submitForm(Specie.value, Name.value, Age.value, Diet.value, Location.value, Caretakers.value, Sex.value, Likes.value, Dislikes.value); Specie.value=''; Name.value=''; Age.value=''; Diet.value=''; Location.value=''; Caretakers.value=''; Sex.value=''; Likes.value=''; Dislikes.value=''">Add</button>
+         </div>
+      </div>
+   </div>
+</div>

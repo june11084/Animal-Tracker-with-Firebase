@@ -1,5 +1,5 @@
-# CssPractice
-
+# Css and Firebase Practice
+This is a Friday Epicodus project where we improve the fields we are weak in, and for me it will be making more complex front end and using more CSS styles for our previous project "Animal-Tracker", and implementing firebase.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
 
 ## Development server

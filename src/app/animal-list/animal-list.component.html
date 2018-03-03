@@ -1,0 +1,12 @@
+<h2>Animal Record</h2>
+
+<div *ngFor="let animal of animals | async" class="panel panel-default">
+  <div class="panel-body">
+    <h3 (click)="goToDetailPage(animal)"><em>{{animal.specie}}</em>: {{animal.name}}</h3>
+  </div>
+  <div *ngIf="currentRoute === '/admin'">
+      {{animal.description}}
+      <hr>
+      <app-edit-animal [selectedAnimal]="animal"></app-edit-animal>
+  </div>
+</div>

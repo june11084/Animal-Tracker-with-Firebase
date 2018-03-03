@@ -1,0 +1,41 @@
+<h4>Edit Animal</h4>
+
+<label>Title:</label>
+<input [(ngModel)]="selectedAnimal.specie">
+<br>
+
+<label>Artist:</label>
+<input [(ngModel)]="selectedAnimal.name">
+<br>
+
+<label>Description:</label>
+<input [(ngModel)]="selectedAnimal.age">
+<br>
+
+<label>Description:</label>
+<input [(ngModel)]="selectedAnimal.diet">
+<br>
+
+<label>Description:</label>
+<input [(ngModel)]="selectedAnimal.location">
+<br>
+
+<label>Description:</label>
+<input [(ngModel)]="selectedAnimal.caretakers">
+<br>
+
+<label>Description:</label>
+<input [(ngModel)]="selectedAnimal.sex">
+<br>
+
+<label>Description:</label>
+<input [(ngModel)]="selectedAnimal.likes">
+<br>
+
+<label>Description:</label>
+<input [(ngModel)]="selectedAnimal.dislikes">
+<br>
+
+<button (click)="beginUpdatingAnimal(selectedAnimal)">Update</button>
+<hr>
+<button (click)="beginDeletingAnimal(selectedAnimal)">Delete</button>
