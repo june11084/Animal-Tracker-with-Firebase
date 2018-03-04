@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { AnimalService } from '../animal.service';
+import { Animal } from '../animal.model';
 @Component({
   selector: 'app-edit-animal',
   templateUrl: './edit-animal.component.html',
