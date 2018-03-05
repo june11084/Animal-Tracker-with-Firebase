@@ -2,7 +2,7 @@
 
 <div *ngFor="let animal of animals | async" class="panel panel-default">
   <div class="panel-body">
-    <h3 (click)="goToDetailPage(animal)"><em>{{animal.specie}}</em>: {{animal.name}}</h3>
+    <h3 (click)="goToDetailPage(animal)"><em>{{animal.specie}}: {{animal.name}}</em></h3>
   </div>
   <div *ngIf="currentRoute === '/admin'">
       <em>{{animal.specie}}</em>: {{animal.name}}
